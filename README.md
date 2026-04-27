@@ -18,19 +18,21 @@ Website ini tidak menggunakan database dan tidak menggunakan CRUD, karena data i
 
 Struktur Halaman
 1. Login
+<img width="1919" height="915" alt="login" src="https://github.com/user-attachments/assets/8a89f58e-7ad7-45c2-8370-55434b204dcd" />
 
-(screenshoot/login.png)
 Halaman login digunakan sebagai pintu masuk aplikasi. User memasukkan username dan password demo, kemudian data username akan dikirim ke dashboard melalui request parameter.
 
 2. Dashboard
-(screenshoot/Dashboard1.png)
-(screenshoot/Dashboard2.png)
+<img width="1919" height="919" alt="Dashboard1" src="https://github.com/user-attachments/assets/415ce6ef-0b70-4ad4-9828-97975ba3fadf" />
+
 Dashboard menampilkan sapaan untuk user yang sedang login dan ringkasan statistik inventaris, seperti total jenis barang, total stok, total nilai inventaris, dan jumlah stok menipis. Pada halaman ini juga terdapat bagian aksi cepat untuk menuju halaman pengelolaan dan profil.
 
 3. Pengelolaan
-(screenshoot/pengelolaan.png)
+<img width="1919" height="928" alt="pengelolaan" src="https://github.com/user-attachments/assets/df93ea85-ffe2-4580-9a0f-b8809e033894" />
+
 Halaman pengelolaan menampilkan data inventaris barang dalam bentuk tabel. Data barang berasal dari array di controller, lalu ditampilkan di view menggunakan @foreach. Informasi yang ditampilkan meliputi kode barang, nama barang, kategori, stok, harga, tanggal masuk, dan status stok.
 
 4. Profile
+<img width="1919" height="917" alt="profile" src="https://github.com/user-attachments/assets/0f789bed-e8b9-4c7e-a5d2-2cc2a4e44f8e" />
 
 Halaman profile menampilkan informasi akun pengguna yang sedang login. Username pada halaman ini berasal dari request parameter yang diteruskan dari halaman login dan dashboard.
